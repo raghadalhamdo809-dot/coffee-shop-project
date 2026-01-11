@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Hakkında</a>
+        <a href="gallery.html">Galeri</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+
+    <section class="contact">
+        <h2>İletişim</h2>
+
+        <form class="contact-form"
+      action="https://formspree.io/f/xregbzdv"
+      method="POST">
+
+    <label>Ad Soyad</label>
+    <input type="text" name="name" placeholder="Adınızı giriniz" required>
+
+    <label>E-posta</label>
+    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+
+    <label>Mesaj</label>
+    <textarea name="message" placeholder="Mesajınızı yazınız" required></textarea>
+
+    <button type="submit">Gönder</button>
+</form>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>

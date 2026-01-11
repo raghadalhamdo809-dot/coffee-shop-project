@@ -1,0 +1,337 @@
+/* === Navbar === */
+.navbar {
+    background: linear-gradient(to right, #8B5E3C, #A67C52);
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background: #8B5E3C;
+}
+
+/* === Hero (Home Page) === */
+.hero {
+    background: url('images/coffee-bg.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #8B5E3C;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #A67C52;
+}
+
+/* === Menu Page === */
+.menu-title {
+    text-align: center;
+    font-size: 32px;
+    color: #4a2c1a;
+    margin-top: 30px;
+}
+
+.menu-section {
+    margin: 35px 0 15px;
+    font-size: 26px;
+    color: #5b3a1e;
+    border-left: 5px solid #d7b894;
+    padding-left: 10px;
+}
+
+.menu-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
+
+/* === Menu Item Box === */
+.menu-item {
+    background: #fff9f3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #e8d9c3;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.25s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.menu-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    color: #5b3a1e;
+}
+/* ===== Hero Section ===== */
+.hero {
+    display: flex;
+    flex-direction: column;   /* يخلي العناصر تحت بعض */
+    align-items: center;      /* بالنص أفقيًا */
+    text-align: center;       /* النص بالنص */
+    padding: 50px 8%;
+    background: #f8efe6;
+    border-bottom: 1px solid #e3d4c7;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    flex: 1 1 350px;
+    max-width: 500px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    color: #4b2e13;
+    margin-bottom: 15px;
+  }
+  
+  .hero-content p {
+    
+        font-size: 18px;      /* حجم مناسب، مو كبير */
+        line-height: 1.6;     /* يخلي القراءة مريحة */
+        margin: 15px 0 25px;
+        color: #6a4a2f;
+   
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #6b4f3a;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #4b3627;
+  }
+  
+  .hero-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+/* === Popular Items Section === */
+.popular {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.popular h2 {
+    font-size: 30px;
+    color: #4a2c1a;
+    margin-bottom: 25px;
+}
+
+.popular-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.popular-item {
+    background: #fff9f3;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #e8d9c3;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.25s ease;
+}
+
+.popular-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.popular-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.popular-item p {
+    font-size: 18px;
+    color: #5b3a1e;
+    font-weight: bold;
+}
+
+  /* ===== About Page ===== */
+.about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #4a2c1a;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #5b3a1e;
+    margin-bottom: 15px;
+}
+/* ===== Gallery Page ===== */
+.gallery {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 28px;
+    color: #4a2c1a;
+    margin-bottom: 25px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* ===== Contact Page ===== */
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #4a2c1a;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-size: 14px;
+    color: #5b3a1e;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #d6c3a5;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #8B5E3C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #6f4528;
+}
+.order-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.order-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #8B5E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background-color: #6f4528;
+}

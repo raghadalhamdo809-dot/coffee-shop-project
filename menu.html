@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Hakkında</a>
+        <a href="gallery.html">Galeri</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+
+    <h2 class="menu-title">Menümüz</h2>
+
+<div class="order-container">
+    <a href="contact.html" class="order-btn">Sipariş Ver</a>
+</div>
+
+
+    <div class="menu-container">
+
+        <!-- Sıcak İçecekler -->
+        <h3 class="menu-section">Sıcak İçecekler</h3>
+        <div class="menu-grid">
+        <div class="menu-item">
+             <img src="images/hot_latte.jpg" alt="Latte">
+             <p>Latte — 115₺</p>
+             <button onclick="siparisVer('Latte', 115)">Sipariş Ver</button>
+        </div>
+
+
+
+            <div class="menu-item">
+                <img src="images/americano.jpeg" alt="Americano">
+                <p>Americano — 100tl</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/cappuccino.jpg" alt="Cappuccino">
+                <p>Cappuccino — 75tl</p>
+            </div>
+        </div>
+
+        <!-- Soğuk İçecekler -->
+        <h3 class="menu-section">Soğuk İçecekler</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/icelatte.jpeg" alt="Ice Latte">
+                <p>Ice Latte — 120tl</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/frapp.jpeg" alt="Frappe">
+                <p>Frappe — 120tl</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/cold_brew.jpeg" alt="Cold Brew">
+                <p>Cold Brew — 140tl</p>
+            </div>
+        </div>
+
+        <!-- Tatlılar -->
+        <h3 class="menu-section">Tatlılar</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/çikolatalıkek.jpeg" alt="Cake">
+                <p>Çikolatalı Kek — 160tl</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/cookies.jpeg" alt="Cookies">
+                <p>Kurabiye — 125tl</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/muffin.jpeg" alt="Muffin">
+                <p>Muffin — 130tl</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
